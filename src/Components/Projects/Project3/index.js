@@ -15,9 +15,9 @@ export default function ProjectThreeComponent() {
             <p className="projectThree_title" >Kickstarter</p>
             <p className="projectThree_description" > A Kickstarter clone, most effort was put into making it an exact clone. This was built using Python and Flask communicating with a PostgreSQL database for the backend. This application also uses React and Redux for the frontend with alot of moving bits and pieces to make this a high quality clone. HTML5 and CSS3 were used to bring the application to life with almost pixel perfect styling </p>
             <div className="projectThree_links_ctnr">
-                <a className="projectThree_live_link" href="https://triple-confirmed-games.herokuapp.com/">Live </a>
+                <a className="projectThree_live_link" href="https://kickstarter-clone-aa.herokuapp.com/">Live </a>
                 {'|'}
-                <a className="projectThree_repo_link" href="https://github.com/Woods-Trevin/TripleConfirmedGames"> Repo</a>
+                <a className="projectThree_repo_link" href="https://github.com/boromeot/kickstarter-clone"> Repo</a>
             </div>
         </div>
     );

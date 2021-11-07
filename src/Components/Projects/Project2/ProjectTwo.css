@@ -1,12 +1,13 @@
 .projectTwo_outmost_ctnr {
     /* border: 4px solid blue; */
     background-color: #099DD0;
-    height: 900px;
+    height: 1000px;
     width: 100%;
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
+    font-family: 'American Typewriter', 'Didot', 'Times New Roman', Times, serif;
 }
 
 

@@ -12,7 +12,7 @@ export default function ProjectFourComponent() {
                 <img className="projectFour display" src={process.env.PUBLIC_URL + "/ChurchConnect/DisplayPage.png"} alt="" />
             </div>
             <p className="projectFour_swipeLabel">Swipe to view more</p>
-            <p className="projectFour_title" >Kickstarter</p>
+            <p className="projectFour_title" >Church Connect</p>
             <p className="projectFour_description" >
                 ChurchConnect was a pleasure to design. This was the first project I was able to make
                 without any help with backend calls or frontend redux state.
@@ -22,9 +22,9 @@ export default function ProjectFourComponent() {
                 the eyes and easy to use for all ages.
             </p>
             <div className="projectFour_links_ctnr">
-                <a className="projectFour_live_link" href="https://triple-confirmed-games.herokuapp.com/">Live </a>
+                <a className="projectFour_live_link" href="https://churchconnect.herokuapp.com/">Live </a>
                 {'|'}
-                <a className="projectFour_repo_link" href="https://github.com/Woods-Trevin/TripleConfirmedGames"> Repo</a>
+                <a className="projectFour_repo_link" href="https://github.com/Woods-Trevin/ChurchConnect"> Repo</a>
             </div>
         </div>
     );

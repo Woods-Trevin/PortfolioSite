@@ -1,12 +1,13 @@
 .ProjectOne_outmost_ctnr {
     /* border: 4px solid green; */
-    height: 900px;
+    height: 1000px;
     background-color: #07B9F4;
     width: 100%;
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
+    font-family: 'American Typewriter', 'Didot', 'Times New Roman', Times, serif;
     
     
 }
