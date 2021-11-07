@@ -1,0 +1,117 @@
+.ProjectOne_outmost_ctnr {
+    /* border: 4px solid green; */
+    height: 900px;
+    background-color: #07B9F4;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    
+    
+}
+
+.projects_title {
+    color: white;
+    /* margin-top: 30px; */
+    font-size:50px;
+}
+
+/* ================================================================= */
+
+.projectOne_SS_ctnr {
+    width: 900px;
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+}
+
+.projectOne_SS_ctnr > img {
+    scroll-snap-align: start;
+    flex-shrink: 0;
+    background: #eee;
+    transform-origin: center center;
+    transform: scale(1);
+    transition: transform 0.5s;
+    /* position: relative; */
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectOne.splash {
+    height: 500px;
+    width: 900px;
+}
+
+.projectOne.browse {
+    height: 500px;
+    width: 900px;
+}
+
+.projectOne.infoReview {
+    height: 500px;
+    width: 900px;
+}
+
+/* ================================================================= */
+
+.projectOne_swipeLabel {
+    color: white;
+    font-size:25px;
+}
+
+.projectOne_title {
+    /* border: 2px solid red; */
+    position: relative;
+    right: 300px;
+    font-size:25px;
+    /* color: white; */
+    font-weight: 900;
+}
+
+.projectOne_description {
+    /* border: 2px solid red; */
+    position: relative;
+    width: 50%;
+    right: 51px;
+    font-size:25px;
+    /* color: white; */
+    font-weight: 900;
+}
+
+/* ================================================================= */
+
+.projectOne_links_ctnr {
+    /* border: 2px solid black; */
+    position: relative;
+    right: 390px;
+    font-size:25px;
+    bottom: 20px;
+}
+
+
+.projectOne_live_link {
+    text-decoration: none;
+    color: white;
+
+}
+
+
+.projectOne_repo_link {
+    text-decoration: none;
+    color: white;
+
+
+}
+
+
+
+
+
+
+
+
