@@ -1,6 +1,90 @@
 .projectFour_outmost_ctnr {
     /* border: 4px solid purple; */
     background-color: #0C6588;
-    height: 600px;
+    height: 900px;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
 }
+
+.projectFour_SS_ctnr {
+    width: 900px;
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+}
+
+.projectFour_SS_ctnr > img {
+    scroll-snap-align: start;
+    flex-shrink: 0;
+    background: #eee;
+    transform-origin: center center;
+    transform: scale(1);
+    transition: transform 0.5s;
+    /* position: relative; */
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectFour.splashTop {
+    height: 500px;
+    width: 900px;
+}
+
+.projectFour.splashBottom {
+    height: 500px;
+    width: 900px;
+}
+
+.projectFour.createAnnouncement {
+    height: 500px;
+    width: 900px;
+}
+
+.projectFour.createEvent {
+    height: 500px;
+    width: 900px;
+}
+
+.projectFour.display {
+    height: 500px;
+    width: 900px;
+}
+
+/*----------------------------------------------------------------*/
+
+.projectFour_swipeLabel {
+    color: white;
+    font-size:25px;
+}
+
+.projectFour_title {
+
+}
+
+.projectFour_description {
+
+}
+
+.projectFour_links_ctnr {
+
+}
+
+.projectFour_live_link {
+
+}
+
+.projectFour_repo_link {
+
+}
+
+
+
+
+
