@@ -1,0 +1,53 @@
+.splash_backgroundOne {
+   content: inherit;
+   width: 100%;
+}
+
+.splash_label {
+   position: absolute;
+   top: 200px;
+   left: 22%;
+   right: 0;
+   bottom: 0;
+   color: white;
+   font-size: 50px;
+   font-family: 'American Typewriter', 'Didot', 'Times New Roman', Times, serif;
+
+   
+}
+
+.splash_word {
+   color: rgb(84, 196, 240);
+}
+
+.splash_owner_img {
+   width: 200px;
+   height: 180px;
+   position: absolute;
+   top: 410px;
+   left: 8%;
+   right: 0;
+   bottom: 0;
+}
+
+.splash_aboutme_label {
+   position: absolute;
+   top: 85%;
+   left: 30%;
+   right: 0;
+   bottom: 0;
+   color: white;
+   font-size:25px;
+   font-family: 'American Typewriter', 'Didot', 'Times New Roman', Times, serif;
+}
+
+.splash_resume_label {
+   position: absolute;
+   top: 90%;
+   left: 40%;
+   right: 0;
+   bottom: 0;
+   color: rgb(84, 196, 240);
+   font-size:25px;
+   font-family: 'American Typewriter', 'Didot', 'Times New Roman', Times, serif;
+}
